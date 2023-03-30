@@ -5,7 +5,6 @@ var question=document.querySelector('.question')
 var correct=0;
 var wrong=0;
 var gameNumber=10;
-var array=[]
 var arr=[['Nile river is the longest river','t'],['Vatican is a country','t'],['Melbourne is the capital of Australia','f'],
 ['Mount Fuji is the highest mountain in Japan','t'],['The skull is the strongest bone in the human body','f'],['The black box of the plane is black','f'],
 ['Tomato is a fruit','t'],['Cleopatra was Egyptian','f'],['Coffee is made from berries','t'],['If you add the two numbers on the opposite side of the dice, the answer is always seven','t'],
@@ -27,9 +26,6 @@ var arr=[['Nile river is the longest river','t'],['Vatican is a country','t'],['
     correctAnswer.innerText=correct;
     gameNumber=10
     numberOfUses.innerText=gameNumber
-
-
-
  }
 window.onkeypress=function(e){
     gameNumber--
@@ -45,8 +41,6 @@ window.onkeypress=function(e){
         else{
             wrong++
             wrongAnswer.innerText=wrong
-
-
         }
 
     }

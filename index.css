@@ -43,7 +43,7 @@ h1{
 .question{
     width: 95%;
     border: 3px solid black;
-    height: 7vh;
+    height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
