@@ -18,14 +18,14 @@ section{
 
 h1{
     color: white;
-    padding-bottom:100px ;
+    padding-bottom:20px ;
     font-size: 35px;
 
 }
 .general{
     border: 1px solid white;
     width: 600px;
-    height: 310px ;
+    height: 260px ;
     margin-bottom: 200px;
     background-color: aliceblue;
     display: flex;
